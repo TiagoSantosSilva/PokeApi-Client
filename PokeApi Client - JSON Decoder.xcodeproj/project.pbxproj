@@ -85,7 +85,6 @@
 				2728EA531FE29AF100DCB934 /* AppDelegate.swift */,
 				2728EA551FE29AF100DCB934 /* ViewController.swift */,
 				2728EA571FE29AF100DCB934 /* Main.storyboard */,
-				2728EA711FE2A77300DCB934 /* Urls.swift */,
 				2728EA5A1FE29AF100DCB934 /* Assets.xcassets */,
 				2728EA5C1FE29AF100DCB934 /* LaunchScreen.storyboard */,
 				2728EA5F1FE29AF100DCB934 /* Info.plist */,
@@ -108,6 +107,7 @@
 		2728EA701FE2A75300DCB934 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				2728EA711FE2A77300DCB934 /* Urls.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";

@@ -23,6 +23,14 @@ class JSONCoder {
     
     class func decodeWithNativeDecoder(data: Data, messageToPrint: String) {
         print(messageToPrint)
+        
+        guard let dictionary = try? JSONSerialization.jsonObject(with: data, options: []) as! [String: Any] else { return }
+        
+        guard let id = dictionary["id"] as? Int else { return }
+        guard let name = dictionary["name"] as? String else { return }
+        guard let size = dictionary["size"] as? Int else { return }
+        
+        print("Id: \(id) \nName: \(name) \nSize: \(size)")
     }
     
     class func decodeWithSwiftyJSON(data: Data, messageToPrint: String) {

@@ -18,6 +18,9 @@
 		2728EA6D1FE2A6E400DCB934 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA6C1FE2A6E400DCB934 /* Item.swift */; };
 		2728EA6F1FE2A6FA00DCB934 /* NaturalGiftType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA6E1FE2A6FA00DCB934 /* NaturalGiftType.swift */; };
 		2728EA721FE2A77300DCB934 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA711FE2A77300DCB934 /* Urls.swift */; };
+		275E51741FE2BE23003FE597 /* MoyaLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E51731FE2BE23003FE597 /* MoyaLayer.swift */; };
+		275E51771FE2D2AF003FE597 /* RequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E51761FE2D2AF003FE597 /* RequestClient.swift */; };
+		275E51791FE2D553003FE597 /* JSONCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E51781FE2D553003FE597 /* JSONCoder.swift */; };
 		5D818B3BA3158B6FA2D2D2BF /* Pods_PokeApi_Client___JSON_Decoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D1DC5268236EE3FD09B3 /* Pods_PokeApi_Client___JSON_Decoder.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		2728EA6C1FE2A6E400DCB934 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2728EA6E1FE2A6FA00DCB934 /* NaturalGiftType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalGiftType.swift; sourceTree = "<group>"; };
 		2728EA711FE2A77300DCB934 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		275E51731FE2BE23003FE597 /* MoyaLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLayer.swift; sourceTree = "<group>"; };
+		275E51761FE2D2AF003FE597 /* RequestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestClient.swift; sourceTree = "<group>"; };
+		275E51781FE2D553003FE597 /* JSONCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCoder.swift; sourceTree = "<group>"; };
 		55F67480F2619B6DFD8BF9CE /* Pods-PokeApi Client - JSON Decoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApi Client - JSON Decoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder.debug.xcconfig"; sourceTree = "<group>"; };
 		8D16D1DC5268236EE3FD09B3 /* Pods_PokeApi_Client___JSON_Decoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_PokeApi_Client___JSON_Decoder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E84F24D1BA810DE073F082 /* Pods-PokeApi Client - JSON Decoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApi Client - JSON Decoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 				2728EA531FE29AF100DCB934 /* AppDelegate.swift */,
 				2728EA551FE29AF100DCB934 /* ViewController.swift */,
 				2728EA571FE29AF100DCB934 /* Main.storyboard */,
+				2728EA711FE2A77300DCB934 /* Urls.swift */,
 				2728EA5A1FE29AF100DCB934 /* Assets.xcassets */,
 				2728EA5C1FE29AF100DCB934 /* LaunchScreen.storyboard */,
 				2728EA5F1FE29AF100DCB934 /* Info.plist */,
@@ -101,7 +108,6 @@
 		2728EA701FE2A75300DCB934 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				2728EA711FE2A77300DCB934 /* Urls.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -109,6 +115,9 @@
 		275E51721FE2BDE6003FE597 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				275E51731FE2BE23003FE597 /* MoyaLayer.swift */,
+				275E51761FE2D2AF003FE597 /* RequestClient.swift */,
+				275E51781FE2D553003FE597 /* JSONCoder.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -253,10 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275E51771FE2D2AF003FE597 /* RequestClient.swift in Sources */,
 				2728EA561FE29AF100DCB934 /* ViewController.swift in Sources */,
 				2728EA691FE2A65200DCB934 /* Firmness.swift in Sources */,
+				275E51741FE2BE23003FE597 /* MoyaLayer.swift in Sources */,
 				2728EA6F1FE2A6FA00DCB934 /* NaturalGiftType.swift in Sources */,
 				2728EA721FE2A77300DCB934 /* Urls.swift in Sources */,
+				275E51791FE2D553003FE597 /* JSONCoder.swift in Sources */,
 				2728EA6B1FE2A66E00DCB934 /* Flavor.swift in Sources */,
 				2728EA541FE29AF100DCB934 /* AppDelegate.swift in Sources */,
 				2728EA6D1FE2A6E400DCB934 /* Item.swift in Sources */,

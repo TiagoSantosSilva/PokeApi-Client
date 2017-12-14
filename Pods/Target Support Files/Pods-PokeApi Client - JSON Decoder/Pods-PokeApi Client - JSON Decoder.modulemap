@@ -1,0 +1,6 @@
+framework module Pods_PokeApi_Client___JSON_Decoder {
+  umbrella header "Pods-PokeApi Client - JSON Decoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

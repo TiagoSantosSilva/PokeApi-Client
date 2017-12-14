@@ -12,6 +12,13 @@
 		2728EA591FE29AF100DCB934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2728EA571FE29AF100DCB934 /* Main.storyboard */; };
 		2728EA5B1FE29AF100DCB934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2728EA5A1FE29AF100DCB934 /* Assets.xcassets */; };
 		2728EA5E1FE29AF100DCB934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2728EA5C1FE29AF100DCB934 /* LaunchScreen.storyboard */; };
+		2728EA671FE2A04B00DCB934 /* Berry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA661FE2A04B00DCB934 /* Berry.swift */; };
+		2728EA691FE2A65200DCB934 /* Firmness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA681FE2A65200DCB934 /* Firmness.swift */; };
+		2728EA6B1FE2A66E00DCB934 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA6A1FE2A66E00DCB934 /* Flavor.swift */; };
+		2728EA6D1FE2A6E400DCB934 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA6C1FE2A6E400DCB934 /* Item.swift */; };
+		2728EA6F1FE2A6FA00DCB934 /* NaturalGiftType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA6E1FE2A6FA00DCB934 /* NaturalGiftType.swift */; };
+		2728EA721FE2A77300DCB934 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728EA711FE2A77300DCB934 /* Urls.swift */; };
+		5D818B3BA3158B6FA2D2D2BF /* Pods_PokeApi_Client___JSON_Decoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D1DC5268236EE3FD09B3 /* Pods_PokeApi_Client___JSON_Decoder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		2728EA5A1FE29AF100DCB934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2728EA5D1FE29AF100DCB934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2728EA5F1FE29AF100DCB934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2728EA661FE2A04B00DCB934 /* Berry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berry.swift; sourceTree = "<group>"; };
+		2728EA681FE2A65200DCB934 /* Firmness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firmness.swift; sourceTree = "<group>"; };
+		2728EA6A1FE2A66E00DCB934 /* Flavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		2728EA6C1FE2A6E400DCB934 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2728EA6E1FE2A6FA00DCB934 /* NaturalGiftType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalGiftType.swift; sourceTree = "<group>"; };
+		2728EA711FE2A77300DCB934 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		55F67480F2619B6DFD8BF9CE /* Pods-PokeApi Client - JSON Decoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApi Client - JSON Decoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder.debug.xcconfig"; sourceTree = "<group>"; };
+		8D16D1DC5268236EE3FD09B3 /* Pods_PokeApi_Client___JSON_Decoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_PokeApi_Client___JSON_Decoder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E84F24D1BA810DE073F082 /* Pods-PokeApi Client - JSON Decoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApi Client - JSON Decoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D818B3BA3158B6FA2D2D2BF /* Pods_PokeApi_Client___JSON_Decoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				2728EA521FE29AF100DCB934 /* PokeApi Client - JSON Decoder */,
 				2728EA511FE29AF100DCB934 /* Products */,
+				9C118000AF55B9E866D5033B /* Pods */,
+				653B72B27E17EFCBC70EDA98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,9 @@
 		2728EA521FE29AF100DCB934 /* PokeApi Client - JSON Decoder */ = {
 			isa = PBXGroup;
 			children = (
+				275E51721FE2BDE6003FE597 /* Services */,
+				2728EA701FE2A75300DCB934 /* Constants */,
+				2728EA651FE2A03C00DCB934 /* Models */,
 				2728EA531FE29AF100DCB934 /* AppDelegate.swift */,
 				2728EA551FE29AF100DCB934 /* ViewController.swift */,
 				2728EA571FE29AF100DCB934 /* Main.storyboard */,
@@ -64,6 +86,50 @@
 			path = "PokeApi Client - JSON Decoder";
 			sourceTree = "<group>";
 		};
+		2728EA651FE2A03C00DCB934 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2728EA661FE2A04B00DCB934 /* Berry.swift */,
+				2728EA681FE2A65200DCB934 /* Firmness.swift */,
+				2728EA6A1FE2A66E00DCB934 /* Flavor.swift */,
+				2728EA6C1FE2A6E400DCB934 /* Item.swift */,
+				2728EA6E1FE2A6FA00DCB934 /* NaturalGiftType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2728EA701FE2A75300DCB934 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2728EA711FE2A77300DCB934 /* Urls.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		275E51721FE2BDE6003FE597 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		653B72B27E17EFCBC70EDA98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D16D1DC5268236EE3FD09B3 /* Pods_PokeApi_Client___JSON_Decoder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C118000AF55B9E866D5033B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55F67480F2619B6DFD8BF9CE /* Pods-PokeApi Client - JSON Decoder.debug.xcconfig */,
+				90E84F24D1BA810DE073F082 /* Pods-PokeApi Client - JSON Decoder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2728EA621FE29AF100DCB934 /* Build configuration list for PBXNativeTarget "PokeApi Client - JSON Decoder" */;
 			buildPhases = (
+				E074C6F11B7F90A695E65103 /* [CP] Check Pods Manifest.lock */,
 				2728EA4C1FE29AF100DCB934 /* Sources */,
 				2728EA4D1FE29AF100DCB934 /* Frameworks */,
 				2728EA4E1FE29AF100DCB934 /* Resources */,
+				BC50464129377845BD160C20 /* [CP] Embed Pods Frameworks */,
+				22D20755206B515B1F98D46D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +200,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22D20755206B515B1F98D46D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC50464129377845BD160C20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeApi Client - JSON Decoder/Pods-PokeApi Client - JSON Decoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E074C6F11B7F90A695E65103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2728EA4C1FE29AF100DCB934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2728EA561FE29AF100DCB934 /* ViewController.swift in Sources */,
+				2728EA691FE2A65200DCB934 /* Firmness.swift in Sources */,
+				2728EA6F1FE2A6FA00DCB934 /* NaturalGiftType.swift in Sources */,
+				2728EA721FE2A77300DCB934 /* Urls.swift in Sources */,
+				2728EA6B1FE2A66E00DCB934 /* Flavor.swift in Sources */,
 				2728EA541FE29AF100DCB934 /* AppDelegate.swift in Sources */,
+				2728EA6D1FE2A6E400DCB934 /* Item.swift in Sources */,
+				2728EA671FE2A04B00DCB934 /* Berry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +395,7 @@
 		};
 		2728EA631FE29AF100DCB934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F67480F2619B6DFD8BF9CE /* Pods-PokeApi Client - JSON Decoder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +411,7 @@
 		};
 		2728EA641FE29AF100DCB934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E84F24D1BA810DE073F082 /* Pods-PokeApi Client - JSON Decoder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

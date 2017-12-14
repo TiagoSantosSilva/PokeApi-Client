@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4F06B8617773D2383174A7BA784C6FA5'
-               BlueprintName = 'Pods-PokeApi Client - JSON Decoder'
+               BlueprintIdentifier = 'D889198E59454ADE0C3568BB205362A4'
+               BlueprintName = 'SwiftyJSON'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-PokeApi Client - JSON Decoder.framework'>
+               BuildableName = 'SwiftyJSON.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

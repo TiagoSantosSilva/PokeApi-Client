@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 class JSONCoder {
     
@@ -35,5 +36,12 @@ class JSONCoder {
     
     class func decodeWithSwiftyJSON(data: Data, messageToPrint: String) {
         print(messageToPrint)
+        
+        guard let json = try? JSON(data: data) else { return }
+        let id = json["id"].stringValue
+        let name = json["name"].stringValue
+        let size = json["size"].stringValue
+        
+        print("Id: \(id) \nName: \(name) \nSize: \(size)")
     }
 }

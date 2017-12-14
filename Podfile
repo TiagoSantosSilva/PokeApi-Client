@@ -11,5 +11,6 @@ target 'PokeApi Client - JSON Decoder' do
   
   pod 'Alamofire'
   pod 'Moya'
+  pod 'SwiftyJSON'
 
 end

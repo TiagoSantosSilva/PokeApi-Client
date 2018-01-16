@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2728EA501FE29AF100DCB934 /* PokeApi Client - JSON Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeApi Client - JSON Decoder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2728EA501FE29AF100DCB934 /* PokeApi Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeApi Decoder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2728EA531FE29AF100DCB934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2728EA551FE29AF100DCB934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2728EA581FE29AF100DCB934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		2728EA471FE29AF100DCB934 = {
 			isa = PBXGroup;
 			children = (
-				2728EA521FE29AF100DCB934 /* PokeApi Client - JSON Decoder */,
+				2728EA521FE29AF100DCB934 /* PokeApi Decoder */,
 				2728EA511FE29AF100DCB934 /* Products */,
 				9C118000AF55B9E866D5033B /* Pods */,
 				653B72B27E17EFCBC70EDA98 /* Frameworks */,
@@ -71,12 +71,12 @@
 		2728EA511FE29AF100DCB934 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2728EA501FE29AF100DCB934 /* PokeApi Client - JSON Decoder.app */,
+				2728EA501FE29AF100DCB934 /* PokeApi Decoder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2728EA521FE29AF100DCB934 /* PokeApi Client - JSON Decoder */ = {
+		2728EA521FE29AF100DCB934 /* PokeApi Decoder */ = {
 			isa = PBXGroup;
 			children = (
 				275E51721FE2BDE6003FE597 /* Services */,
@@ -89,7 +89,7 @@
 				2728EA5C1FE29AF100DCB934 /* LaunchScreen.storyboard */,
 				2728EA5F1FE29AF100DCB934 /* Info.plist */,
 			);
-			path = "PokeApi Client - JSON Decoder";
+			path = "PokeApi Decoder";
 			sourceTree = "<group>";
 		};
 		2728EA651FE2A03C00DCB934 /* Models */ = {
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2728EA4F1FE29AF100DCB934 /* PokeApi Client - JSON Decoder */ = {
+		2728EA4F1FE29AF100DCB934 /* PokeApi Decoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2728EA621FE29AF100DCB934 /* Build configuration list for PBXNativeTarget "PokeApi Client - JSON Decoder" */;
+			buildConfigurationList = 2728EA621FE29AF100DCB934 /* Build configuration list for PBXNativeTarget "PokeApi Decoder" */;
 			buildPhases = (
 				E074C6F11B7F90A695E65103 /* [CP] Check Pods Manifest.lock */,
 				2728EA4C1FE29AF100DCB934 /* Sources */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = "PokeApi Client - JSON Decoder";
+			name = "PokeApi Decoder";
 			productName = "PokeApi Client - JSON Decoder";
-			productReference = 2728EA501FE29AF100DCB934 /* PokeApi Client - JSON Decoder.app */;
+			productReference = 2728EA501FE29AF100DCB934 /* PokeApi Decoder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2728EA4B1FE29AF100DCB934 /* Build configuration list for PBXProject "PokeApi Client - JSON Decoder" */;
+			buildConfigurationList = 2728EA4B1FE29AF100DCB934 /* Build configuration list for PBXProject "PokeApi Decoder" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2728EA4F1FE29AF100DCB934 /* PokeApi Client - JSON Decoder */,
+				2728EA4F1FE29AF100DCB934 /* PokeApi Decoder */,
 			);
 		};
 /* End PBXProject section */
@@ -412,9 +412,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64E8842TP6;
-				INFOPLIST_FILE = "PokeApi Client - JSON Decoder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PokeApi Decoder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tiago-Santos.PokeApi-Client---JSON-Decoder";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tiago-Santos.PokeApi-Decoder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,9 +428,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64E8842TP6;
-				INFOPLIST_FILE = "PokeApi Client - JSON Decoder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PokeApi Decoder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tiago-Santos.PokeApi-Client---JSON-Decoder";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tiago-Santos.PokeApi-Decoder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,7 +440,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2728EA4B1FE29AF100DCB934 /* Build configuration list for PBXProject "PokeApi Client - JSON Decoder" */ = {
+		2728EA4B1FE29AF100DCB934 /* Build configuration list for PBXProject "PokeApi Decoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2728EA601FE29AF100DCB934 /* Debug */,
@@ -449,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2728EA621FE29AF100DCB934 /* Build configuration list for PBXNativeTarget "PokeApi Client - JSON Decoder" */ = {
+		2728EA621FE29AF100DCB934 /* Build configuration list for PBXNativeTarget "PokeApi Decoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2728EA631FE29AF100DCB934 /* Debug */,

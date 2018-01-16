@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PokeApi Client - JSON Decoder.xcodeproj">
+      location = "group:/Users/tiagosantos/Repositories/GitHub/PokeApi Client - JSON Decoder/PokeApi Decoder.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
